@@ -3,8 +3,23 @@ package app;
 import app.Character;
 
 public class App {
+    private static boolean isEqual(Object value1, Object value2) {
+        return value1 == value2; 
+    
+    }
+        
     public static void main(String[] args) throws Exception {
-        Character mario;
+    
+        
+            System.out.println(isEqual(7,2)); 
+    private static Character createCharacter() {
+                
+            System.out.println("Créons Mario avec 3 vies...");
+        
+        return new Character(3);
+            }    
+
+    
         
         /*
         * 1. Dieu créa Mario
