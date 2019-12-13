@@ -12,7 +12,7 @@ public class App {
     
         
             System.out.println(isEqual(7,2)); 
-    private static Character createCharacter() {
+    private static Character createCharacter(); {
                 
             System.out.println("Créons Mario avec 3 vies...");
         
